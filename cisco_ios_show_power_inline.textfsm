@@ -1,0 +1,10 @@
+Value Interface ([^\s]+)
+Value Admin ([^\s]+)
+Value Oper ([^\s]+)
+Value Power ([^\s]+)
+Value Device (.+?)
+Value Class (0|1|2|3|4|n/a)
+Value Max ([^\s]+)
+
+Start
+  ^${Interface}\s+${Admin}\s+${Oper}\s+${Power}\s+${Device}\s+${Class}\s+${Max} -> Record
